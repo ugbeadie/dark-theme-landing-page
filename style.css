@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(217, 28%, 15%);
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.img {
+  width: 80px;
+  height: 25px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 10px;
+}
+
+li {
+  color: hsl(0, 0%, 100%);
+  font-size: 10px;
+  padding: 8px;
+}
+
+.intro {
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+  background: url(/Users/adieu/Documents/practice/fylo-dark-theme-landing-page-master/images/bg-curvy-mobile.svg)
+    no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.intro img {
+  width: 100%;
+}
+
+.intro h2 {
+  width: 100%;
+  font-size: 25px;
+  line-height: 35px;
+  padding: 50px 10px 0 10px;
+  font-family: "Raleway", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.intro p {
+  width: 100%;
+  padding: 30px 10px 0 10px;
+  line-height: 22px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+
+.intro button {
+  border: none;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: hsl(176, 68%, 64%);
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 10px 70px;
+}
+
+.main-features {
+  width: 100%;
+  background-color: hsl(218, 28%, 13%);
+  text-align: center;
+}
+
+.features {
+  padding: 50px;
+}
+
+.feature-content {
+  width: 100%;
+  padding-top: 80px;
+  color: hsl(0, 0%, 100%);
+}
+
+.feature-content h4 {
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.feature-content p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.productive {
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+}
+
+.how-to {
+  padding: 40px;
+}
+
+.how-to img {
+  width: 100%;
+}
+
+.how-to-span {
+  position: relative;
+  top: 50px;
+}
+
+.how-to-span h1 {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  font-size: 20px;
+}
+
+.how-to-span p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.a1 {
+  text-decoration: none;
+  color: hsl(176, 68%, 64%);
+  position: relative;
+  top: 20px;
+}
+
+.a1 img {
+  width: 12px;
+  height: 12px;
+}
+
+hr {
+  width: 156px;
+  color: hsl(176, 68%, 64%);
+  position: relative;
+  top: 20px;
+}
+
+.testimonial {
+  padding: 40px 20px;
+  margin-top: 80px;
+}
+
+.t-about {
+  background-color: hsl(219, 30%, 18%);
+  margin: 18px;
+  padding: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.in-t-about {
+  display: flex;
+  padding-top: 18px;
+}
+
+.in-t-about img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.t-a {
+  font-size: 12px;
+  padding-left: 10px;
+  line-height: 15px;
+}
+
+.p1 {
+  font-weight: 700;
+}
+
+.access {
+  position: relative;
+  top: 130px;
+  bottom: 100px;
+  background-color: hsl(219, 30%, 18%);
+  text-align: center;
+  margin: 0 20px;
+  padding: 25px 30px;
+}
+
+.access p,
+.i-text {
+  padding-top: 22px;
+}
+
+.access h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.access p {
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  margin-top: 20px;
+  padding: 9px;
+}
+
+.i-text {
+  width: 100%;
+}
+
+.i-text button {
+  width: 100%;
+  padding: 9px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 18px;
+  text-decoration: none;
+  background-color: hsl(176, 68%, 64%);
+}
+
+button a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-footer {
+  background-color: hsl(216, 53%, 9%);
+  color: hsl(0, 0%, 100%);
+  padding: 200px 30px 0 30px;
+}
+
+.footer-img {
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+}
+
+.a-footer {
+  padding-top: 20px;
+}
+
+.sub-a {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  padding: 18px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.about,
+.contact {
+  padding-top: 28px;
+}
+
+.about p,
+.contact p {
+  padding: 18px;
+  line-height: 6px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border: 1px hsl(0, 0%, 100%);
+}
+
+.socials i {
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+}
