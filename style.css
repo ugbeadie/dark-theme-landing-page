@@ -42,8 +42,7 @@ li {
   width: 100%;
   text-align: center;
   background-color: hsl(217, 28%, 15%);
-  background: url(/Users/adieu/Documents/practice/fylo-dark-theme-landing-page-master/images/bg-curvy-mobile.svg)
-    no-repeat;
+  background: url(images/bg-curvy-mobile.svg) no-repeat;
   background-size: contain;
   background-position: bottom;
 }
